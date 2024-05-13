@@ -1,0 +1,74 @@
+/*Tudo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+body{
+    background-color: gainsboro;
+    height: 100vh;
+}
+/*Tudo Final*/
+/*Cabeça */
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header {
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .sessoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    display: none;
+}
+header li a {
+    color: #4d4d4d;
+    text-decoration: none;
+    display: inline-block;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    color: #4d4d4d;
+    display: inline-block;
+    padding: 0 40px;
+}
+header nav ul li:hover {
+    color: #FFF;
+    transform: scale(1.09);
+}
+header nav ul li a:hover {
+    color: #FFF;
+    transform: scale(1.09);
+}
+/*Fim da cabeça*/
+section.Sobre-nos{
+    padding: 40px 4%;
+    display: inline-block;
+
+}
+.Sobre-nos .ladinho .caixa{
+    color: black;
+    padding: 40px;
+
+}
+.ladinho .caixa i {
+    font-size: 40px;
+    color: coral;
+}
