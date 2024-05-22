@@ -57,18 +57,25 @@ header nav ul li a:hover {
     color: #FFF;
     transform: scale(1.09);
 }
+
 /*Fim da cabeça*/
-section.Sobre-nos{
-    padding: 40px 4%;
-    display: inline-block;
-
+#container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
-.Sobre-nos .ladinho .caixa{
-    color: black;
-    padding: 40px;
-
+#container div .caixa{
+   align-items: center;
+   margin: 60px;
+   width: 100%;
 }
-.ladinho .caixa i {
-    font-size: 40px;
+.caixa i{
+    align-items: center;
+    margin: 60px;
+    font-size: 60px;
     color: coral;
+}
+.caixa h3{
+    align-items: center;
+    margin: 60px;
 }
